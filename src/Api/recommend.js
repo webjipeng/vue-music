@@ -35,14 +35,14 @@ export function getDissList(){
 
 }
 
-export function getSongList(dissid){
+export function getSongList(disstid){
     const url='/api/getSongList'
     const data=Object.assign({},commonParams,{
         type:1,
         json:1,
         utf8:1,
         onlysong:0,
-        disstid:dissid,
+        disstid:disstid,
         format:'json',
         loginUin:0,
         hostUin:0,
