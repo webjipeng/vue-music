@@ -25,6 +25,9 @@ const mutations={
     [types.SET_DISC](state,disc){
         state.disc=disc
     },
+    [types.SET_RANK_LIST](state,list){
+        state.rankList=list
+    }
 }
 
 export default mutations

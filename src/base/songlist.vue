@@ -2,6 +2,7 @@
   <div class="song-list">
       <ul>
           <li @click="selectItem(song,index)" class="item" v-for="(song,index) in songs" :key="song.id">
+              <div class="rank" v-show="rank" :class="{'rankTop':index<3}">{{index+1}}</div>
               <div class="content">
                   <h2 class="name">{{song.name}}</h2>
                   <p class="desc">{{getDesc(song)}}</p>
@@ -16,6 +17,10 @@ export default {
         songs:{
             type:Array,
             default:[]
+        },
+        rank:{
+            type:Boolean,
+            default:false
         }
     },
     mounted(){
@@ -65,5 +70,11 @@ export default {
     white-space: nowrap;
     margin-top: 4px;
     color: #777;
+}
+.rank{
+    width: 30px;
+}
+.rankTop{
+    color: #f00
 }
 </style>
