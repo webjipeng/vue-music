@@ -32,4 +32,5 @@ export function getMusicList(topid){
         topid:topid
     })
 
+    return jsonp(url,data,options)
 }
