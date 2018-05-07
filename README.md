@@ -2,7 +2,7 @@
 # 预览地址
 [http://58.87.115.224:81](http://58.87.115.224:81)
 
-###2018-5-7更新音乐api
+### 2018-5-7更新音乐api
 由于QQ音乐api不稳定导致无法播放歌曲，已找到当前可用api：//dl.stream.qqmusic.qq.com/C400这里填写获取到的歌曲id.m4a?guid=5648866400&vkey=7E6522DCDB994C9231A6E036705D8A0957CE4762D8A59257DBFA8F5A7CDB87C9E6A39F0FDA06822F7172D4A4C4485A6DB64AEABCCDD03128&uin=2756&fromtag=38
 
 ## 技术栈
